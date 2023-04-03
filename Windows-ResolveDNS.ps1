@@ -41,5 +41,3 @@ $savefilename = "DNSLookup_Results.csv"
 $textresults | Out-File $savefilename -Encoding utf8
 echo "DNS Lookups completed. Results are stored in $savefilename"
 Write-Host "Press any key to continue ..."
-
-$x = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
